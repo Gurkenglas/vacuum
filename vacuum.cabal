@@ -44,7 +44,7 @@ library
     GHC.Vacuum.Types
   build-depends:
     ghc-prim,
-    base            >  3 && < 5,
+    base            >= 4.3 && < 4.8,
     array           >= 0.3,
     containers      >= 0.4
  -- haskell-src-meta
